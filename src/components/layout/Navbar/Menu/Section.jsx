@@ -5,18 +5,21 @@ const Wrapper = styled.div`
 		display: grid;
 		grid-template-columns: 24px auto;
 		align-items: center;
-		gap: .5rem;
+		gap: .65rem;
+		@media screen and (min-width: 768px) {
+			gap: 2rem;
+		}
 	}
 `
 
 const Section = ({ title, items }) => {
 	return (
-		<Wrapper id="section" className="py-6 px-5">
+		<Wrapper id="section" className="py-4 px-4">
 			<h4 className="font-bold uppercase">{title}</h4>
-			<div className="mt-5 grid grid-cols-2 gap-4">
+			<div className="mt-5 grid grid-cols-2 gap-2 md:gap-8 md:grid-cols-3">
 				{items.map((item) => (
 					<div id="item">
-						<div className="w-8 h-8 flex items-center justify-center">
+						<div className="w-8 h-8 md:h-12 md:w-12 flex items-center justify-center">
 							<img src={item.img} alt="" className="" />
 						</div>
 						<h3 className="font-bold capitalize leading-4">{item.name}</h3>

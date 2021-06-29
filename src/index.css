@@ -7,8 +7,5 @@ body {
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-.modal-open {
-	overflow: hidden;
+	background-color: #90d5ec;
 }
