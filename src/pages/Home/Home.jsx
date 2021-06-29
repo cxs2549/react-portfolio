@@ -22,7 +22,7 @@ const HomeWrapper = styled.div`
 		margin-top: 4%;
 	}
 	@media screen and (min-width: 1280px) {
-		margin-top: 6%;
+		margin-top: 3%;
 	}
 	#info {
 		z-index: 100;
