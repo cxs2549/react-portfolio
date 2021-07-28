@@ -48,19 +48,19 @@ const Hero = () => {
 	]
 	const stack = [ react, vue, tailwind, sass ]
 	return (
-		<HeroWrapper className="">
-			<div className="md:flex items-center justify-center">
+		<HeroWrapper>
+			<div className="md:flex md:items-center md:justify-center">
 				<div className="grid md:grid-cols-2 xl:gap-20  md:items-center w-full">
-					<div className="px-5 md:px-0 -mt-4 md:mt-0 order-2 md:order-1">
-						<div class="space-y-4 w-full ">
+					<div className="px-5 md:px-0 md:mt-0 order-2 md:order-1">
+						<div class="space-y-4 w-full mt-4">
 							<h1 class="text-center md:text-left text-3xl md:text-5xl xl:text-6xl font-extrabold   text-white xl:whitespace-nowrap">
 								Conscious, friendly <br className="" /> web{' '}
 								<br className="hidden xl:block" /> design
 							</h1>
-							<p class="text-center md:text-left  px-4 md:px-0 font-medium md:text-lg xl:text-xl">
+							<p class="text-center md:text-left  px-4 md:px-0 font-medium md:text-lg xl:text-xl pb-4">
 								Building pleasant interfaces with the following  technologies:
 							</p>
-							<div class="pt-5 md:pt-0 flex items-center justify-between max-w-sm md:space-x-5 md:justify-start xl:max-w-full ">
+							<div class="flex items-center justify-between w-full  md:space-x-5 md:justify-start xl:max-w-full ">
 								{stack.map((item, i) => (
 									<div
 										key={i}

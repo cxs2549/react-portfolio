@@ -5,6 +5,7 @@ import css from '../../../../assets/css.png'
 import sass from '../../../../assets/sass.png'
 import js from '../../../../assets/javascript.png'
 import git from '../../../../assets/git.png'
+import node from '../../../../assets/nodejs.png'
 import react from '../../../../assets/react.png'
 import vue from '../../../../assets/vue.png'
 import academind from '../../../../assets/academind.png'
@@ -32,7 +33,7 @@ const StyledMenu = styled.div`
 		color: rgb(10, 37, 64);
 	}
 	& > div:not(:last-child) {
-		border-bottom: 1px dashed #EAEAEE;
+		border-bottom: 1px dashed #eaeaee;
 	}
 	#section img {
 		max-width: 24px;
@@ -50,7 +51,7 @@ const Menu = ({ open }) => {
 		{ name: 'MongoDB', img: mongo },
 		{ name: 'Express', img: express },
 		{ name: 'Git', img: git },
-		'Node'
+		{ name: 'Node', img: node }
 	]
 	const frameworks = [ { name: 'React', img: react }, { name: 'Vue', img: vue } ]
 	const edu = [

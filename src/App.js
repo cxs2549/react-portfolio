@@ -11,7 +11,7 @@ import styled from 'styled-components'
 const AppWrap = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	height: 100vh;
 	#hero {
 		height: 520px;
@@ -257,9 +257,9 @@ const App = () => {
 
 	return (
 		<AppWrap>
-			<div id="hero" />
+			<div id="hero" className="" />
 			<Navbar />
-			<div>{element}</div>
+			<div className="flex-grow">{element}</div>
 			<footer className="text-xs text-center py-5 bg-gradient-to-t from-gray-400 font-medium">
 				<p>Copyright &copy; 2021 SuperVision Design</p>
 				<p>Created with React v17.0.2</p>

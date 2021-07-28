@@ -3,18 +3,26 @@ import styled from 'styled-components'
 
 const StyledSlideshow = styled.div`
 	background: transparent;
-	height: 300px;
+	height: 270px;
 	position: relative;
 	z-index: 0;
 	@media screen and (min-width: 768px) {
-		height: 340px;
+		height: 320px;
+	}
+	@media screen and (min-width: 1280px) {
+		height: 360px;
 	}
 
 	.slideshow {
 		margin: 0 auto;
 		overflow: hidden;
-		height: 340px;
-
+		height: 270px;
+		@media screen and (min-width: 768px) {
+			height: 320px;
+		}
+		@media screen and (min-width: 1280px) {
+			height: 360px;
+		}
 		position: relative;
 		z-index: -100;
 		background-color: transparent;
@@ -34,7 +42,10 @@ const StyledSlideshow = styled.div`
 		height: 220px;
 
 		@media screen and (min-width: 768px) {
-			height: 300px;
+			height: 270px;
+		}
+		@media screen and (min-width: 1280px) {
+			height: 324px;
 		}
 
 		width: 100%;
@@ -50,11 +61,11 @@ const StyledSlideshow = styled.div`
 	.slideshowDots {
 		text-align: center;
 		position: absolute;
-		bottom: 86px;
+		bottom: 12px;
 		left: 50%;
 		transform: translateX(-50%);
-		@media screen and (min-width: 768px) {
-			bottom: 8px;
+		@media screen and (min-width: 1280px) {
+			bottom: 0px;
 		}
 	}
 

@@ -3,9 +3,6 @@ import styled from 'styled-components'
 import MenuButton from './Menu/MenuButton'
 
 const StyledNav = styled.header`
-	/* position: fixed; */
-	top: 0;
-	left: 0;
 	width: 100%;
 	z-index: 10;
 	nav {
@@ -18,7 +15,6 @@ const StyledNav = styled.header`
 		color: white;
 		@media screen and (min-width: 768px) {
 			padding: 32px 48px;
-			/* padding-left: 68px; */
 		}
 		@media screen and (min-width: 1280px) {
 			padding: 32px 0;
