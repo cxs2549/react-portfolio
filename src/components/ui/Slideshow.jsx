@@ -134,7 +134,7 @@ const Slideshow = ({ slides }) => {
 								className="slide rounded-lg"
 								style={{ backgroundImage: `url(${slide.image})` }}
 							>
-								<div className="absolute bottom-2 left-2 bg-gray-100 bg-opacity-80 rounded-full  px-2 py-1 shadow whitespace-nowrap flex items-center space-x-1">
+								<div className="absolute bottom-2 right-2 bg-gray-100 bg-opacity-80 rounded-full  px-2 py-1 shadow whitespace-nowrap flex items-center space-x-1">
 									<img src={slide.framework} className="w-8" alt="" />
 									<a href={slide.github} target="_blank" rel="noreferrer">
 										<div className="text-xl opacity-70">
