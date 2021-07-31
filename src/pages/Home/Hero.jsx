@@ -35,7 +35,7 @@ const Hero = () => {
       name: "HBO Max",
       image: hbo,
       framework: react,
-      link: "/",
+      link: "https://cxs2549.github.io/react-hbo-max-v2",
       github: "https://github.com/cxs2549/react-hbo-max-v2",
     },
     {
