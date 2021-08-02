@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import wb from "../../assets/sites/wb.png";
 import hbo from "../../assets/sites/hbo.png";
+import xbox from "../../assets/sites/xbox.png";
 import uber from "../../assets/sites/uber.png";
 import postmates from "../../assets/sites/postmates.png";
 import slack from "../../assets/sites/slack.png";
@@ -31,6 +32,13 @@ const HeroWrapper = styled.div`
 
 const Hero = () => {
   const slides = [
+    {
+      name: "Xbox",
+      image: xbox,
+      framework: react,
+      link: "https://cxs2549.github.io/react-xbox",
+      github: "https://github.com/cxs2549/react-xbox",
+    },
     {
       name: "HBO Max",
       image: hbo,
