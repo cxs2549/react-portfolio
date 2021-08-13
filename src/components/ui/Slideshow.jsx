@@ -86,7 +86,7 @@ const StyledSlideshow = styled.div`
 	}
 `
 
-const colors = [ '#0088FE', '#00C49F', '#FFBB28', '#ffffff' ]
+const colors = [ '#0088FE', '#00C49F', '#FFBB28', '#ffffff' , 'x', 'b', 'r']
 const delay = 4000
 
 const Slideshow = ({ slides }) => {

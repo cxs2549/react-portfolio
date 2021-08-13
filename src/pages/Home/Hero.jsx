@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import wb from "../../assets/sites/wb.png";
-import hbo from "../../assets/sites/hbo.png";
+import bajaFresh from "../../assets/sites/baja-fresh.png";
 import xbox from "../../assets/sites/xbox.png";
+import hbo from "../../assets/sites/hbo.png";
+import wb from "../../assets/sites/wb.png";
 import uber from "../../assets/sites/uber.png";
 import postmates from "../../assets/sites/postmates.png";
 import slack from "../../assets/sites/slack.png";
@@ -32,6 +33,13 @@ const HeroWrapper = styled.div`
 
 const Hero = () => {
   const slides = [
+    {
+      name: "Baja Fresh",
+      image: bajaFresh,
+      framework: react,
+      link: "https://cxs2549.github.io/react-baja-fresh",
+      github: "https://github.com/cxs2549/react-baja-fresh",
+    },
     {
       name: "Xbox",
       image: xbox,
